@@ -52,11 +52,13 @@
               <v-button
                 variant="minimal"
                 @click.native="createArtist"
-              >Save</v-button>
+              >Save
+              </v-button>
               <v-button
                 :variants="['minimal', 'minimal--danger']"
                 @click.native="goBack"
-              >Cancel</v-button>
+              >Cancel
+              </v-button>
             </v-card-footer>
           </v-card>
         </v-col>
@@ -65,7 +67,6 @@
   </v-layout>
 </template>
 <script>
-
   export default {
     /**
      * The name of the page.

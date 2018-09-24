@@ -17,11 +17,13 @@
               <v-button
                 variant="minimal"
                 @click.native="redirectToEditPage()"
-              >Edit</v-button>
+              >Edit
+              </v-button>
               <v-button
                 :variants="['minimal', 'minimal--danger']"
                 @click.native="destroySong()"
-              >Delete</v-button>
+              >Delete
+              </v-button>
             </v-card-footer>
           </v-card>
         </v-col>

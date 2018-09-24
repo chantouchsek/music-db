@@ -2,7 +2,7 @@
   <div>
     <v-header>
       <v-toolbar>
-        <v-nav-icon @click.native="toggleDrawer" />
+        <v-nav-icon @click.native="toggleDrawer"/>
         <v-toolbar-title>Music DB</v-toolbar-title>
         <v-toolbar-actions>
           <v-toolbar-action @click.native="logout">
